@@ -2,7 +2,7 @@ name: Node.js CI on Pull request
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened]
     branches:
       - master
     draft: false
